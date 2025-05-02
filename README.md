@@ -28,6 +28,5 @@ This project implements a task-based elevator control system using FreeRTOS on t
 - TM4C123GXL Launchpad
 - TivaWare for C Series Software
 
-#### 📺 Demo   
-View the demo in action. 
+#### 📺 Demo 
 ![Elevator Control Demo](./freertos_elev_demo.gif) 
