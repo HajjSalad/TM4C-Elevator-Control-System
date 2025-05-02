@@ -29,4 +29,5 @@ This project implements a task-based elevator control system using FreeRTOS on t
 - TivaWare for C Series Software
 
 #### 📺 Demo   
-View the demo in action. ![Elevator Control Demo](./freertos_elev_demo.gif) 
+View the demo in action. 
+![Elevator Control Demo](./freertos_elev_demo.gif) 
