@@ -16,11 +16,11 @@ This project implements a task-based elevator control system using FreeRTOS on t
 4. **LogProcessorTask:** Processes the logged data, reading it from the circular buffer and displaying it on the terminal for the user to view.
 
 📡 **Inter-Task Communication**  
-1. Queues - Facilitates inter-task communication.    
+**Queues** - Facilitates inter-task communication.    
   - Example: `xDisplayQueue`: Sends display updates to DisplayTask   
-2. Semaphores - Ensures mutual exclusion.   
+**Semaphores** - Ensures mutual exclusion.   
   - Example: `xUARTSemaphore`: Protects UART access for display output   
-3. Task Notifications - Used for lightweight signaling between tasks   
+**Task Notifications** - Used for lightweight signaling between tasks   
   - Example: DisplayTask notifies LogTask when important events occur   
    
 #### ⚙️ Tools and Software
