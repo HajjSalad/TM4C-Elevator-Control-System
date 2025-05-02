@@ -17,11 +17,11 @@ This project implements a task-based elevator control system using FreeRTOS on t
 
 📡 **Inter-Task Communication**  
 **Queues** - Facilitates inter-task communication.    
-  - Example: `xDisplayQueue`: Sends display updates to DisplayTask   
-**Semaphores** - Ensures mutual exclusion.   
-  - Example: `xUARTSemaphore`: Protects UART access for display output   
-**Task Notifications** - Used for lightweight signaling between tasks   
-  - Example: DisplayTask notifies LogTask when important events occur   
+&nbsp;&nbsp;&nbsp;&nbsp;• Example: `xDisplayQueue`: Sends display updates to DisplayTask     
+**Semaphores** - Ensures mutual exclusion.     
+&nbsp;&nbsp;&nbsp;&nbsp;• Example: `xUARTSemaphore`: Protects UART access for display output     
+**Task Notifications** - Used for lightweight signaling between tasks      
+&nbsp;&nbsp;&nbsp;&nbsp;• Example: DisplayTask notifies LogTask when important events occur     
    
 #### ⚙️ Tools and Software
 - Code Composer Studio
